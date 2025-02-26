@@ -3,7 +3,7 @@ import { useParams, useLocation, Link } from "react-router-dom";
 import axios from "axios";
 
 
-export default function PostDetailPage() {
+export default function PostCard() {
 
     // destrutturo per ritornare l'id tramite param
     const { id } = useParams();
